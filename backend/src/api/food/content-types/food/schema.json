@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foods",
+  "info": {
+    "singularName": "food",
+    "pluralName": "foods",
+    "displayName": "food",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "kategorises": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kategori.kategori",
+      "mappedBy": "foods"
+    },
+    "ingrediens": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ingrediens.ingrediens"
+    }
+  }
+}

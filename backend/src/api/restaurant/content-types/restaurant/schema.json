@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "restaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "personal": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "personal.list"
+    }
+  }
+}

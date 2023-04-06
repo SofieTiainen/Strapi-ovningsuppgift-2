@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategoris",
+  "info": {
+    "singularName": "kategori",
+    "pluralName": "kategoris",
+    "displayName": "Kategori",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Kategori": {
+      "type": "string"
+    },
+    "foods": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::food.food",
+      "inversedBy": "kategorises"
+    }
+  }
+}

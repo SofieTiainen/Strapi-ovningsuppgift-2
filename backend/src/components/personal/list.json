@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_personal_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "namn": {
+      "type": "string"
+    }
+  }
+}

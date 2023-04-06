@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_ingrediens_ingrediens",
+  "info": {
+    "displayName": "ingrediens"
+  },
+  "options": {},
+  "attributes": {
+    "ingrediens": {
+      "type": "string"
+    }
+  }
+}
